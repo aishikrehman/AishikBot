@@ -53,13 +53,12 @@ def add_bn_cats(page, bn_cats):
 
 # Parse command-line arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("-file", dest="file_path", default="data/advoocats.txt", help="Path to the file containing page titles")
+parser.add_argument("-file", dest="file_path", nargs='?', const="data/advoocats.txt", help="Path to the file containing page titles")
 parser.add_argument("-cat", dest="category", help="Category name")
 parser.add_argument("-depth", dest="depth", type=int, default=1, help="Category depth")
 parser.add_argument("-recent", dest="recent", type=int, default=0, help="Number of recent pages")
 parser.add_argument("-page", dest="page_title", help="Page title")
 parser.add_argument("-template", dest="template", help="Template name")
-parser.add_argument("-sum", dest="summary", help="Edit summary")
 args = parser.parse_args()
 
 site_bn = pywikibot.Site('bn', 'wikipedia')
@@ -68,9 +67,16 @@ site_bn = pywikibot.Site('bn', 'wikipedia')
 def process_page(bn_page, bn_cats):
     thread = threading.Thread(target=add_bn_cats, args=(bn_page, bn_cats))
     thread.start()
-    
+def process_category(category, depth, recent):
+    pages = category.articles(namespaces=0, total=recent, content=True, recurse=depth)
+    for page in pages:
+        bn_cats = get_bn_cats(get_en_cats(page))
+        process_page(page, bn_cats)
+
 if args.file_path:
-    with open(args.file_path, 'r', encoding='utf-8') as file
+    if not args.file_path.strip():
+        args.file_path = "data/advoocats.txt"
+    with open(args.file_path, 'r', encoding='utf-8') as file:
         page_titles = file.read().splitlines()
     for page_title in page_titles:
         bn_page = pywikibot.Page(site_bn, page_title)
@@ -81,10 +87,7 @@ if args.file_path:
 elif args.category:
     category = pywikibot.Category(site_bn, args.category)
     depth = args.depth if args.depth <= 5 else 5
-    pages = category.articles(namespaces=0, total=args.recent, content=True, recurse=depth)
-    for page in pages:
-        bn_cats = get_bn_cats(get_en_cats(page))
-        process_page(bn_page, bn_cats)
+    process_category(category, depth, args.recent)
 
 elif args.recent:
     recent_pages = site_bn.recentchanges(total=args.recent)
@@ -102,8 +105,8 @@ elif args.template:
     template = pywikibot.Page(site_bn, args.template, ns=10)
     transclusions = template.getReferences(only_template_inclusion=True, namespaces=0, total=args.recent)
 
-    for page in transclusions:
-        bn_cats = get_bn_cats(get_en_cats(page))
+    for bn_page in transclusions:
+        bn_cats = get_bn_cats(get_en_cats(bn_page))
         process_page(bn_page, bn_cats)
 else:
     print("No valid command-line arguments provided. Please check the options.")
