@@ -1,0 +1,2 @@
+# AishikBot
+Mediawiki Bot
