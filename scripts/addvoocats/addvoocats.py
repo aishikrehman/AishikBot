@@ -12,7 +12,7 @@ def get_en_cats(page):
         item = pywikibot.ItemPage.fromPage(page)
         item.get()
     except pywikibot.exceptions.NoPageError:
-        print(f"Error: No page found for '{page.title()}'")
+        print(f"Error: No page found for '{page.title()}' on enwiki")
 
     if item and 'enwiki' in item.sitelinks:
         en_title = item.sitelinks['enwiki'].title
@@ -29,6 +29,7 @@ def get_bn_cats(en_cats):
         try:
             item = en_cat.data_item()
             item.get()
+            
             if 'bnwiki' in item.sitelinks:
                 bn_title = item.sitelinks['bnwiki'].title
                 bn_cat = pywikibot.Page(site_bn, bn_title)
@@ -65,10 +66,12 @@ site_bn = pywikibot.Site('bn', 'wikipedia')
 
 # Process based on command-line arguments
 def process_page(bn_page, bn_cats):
+    print(f"Processing page: {bn_page.title()}")
     thread = threading.Thread(target=add_bn_cats, args=(bn_page, bn_cats))
     thread.start()
-def process_category(category, depth, recent):
-    pages = category.articles(namespaces=0, total=recent, content=True, recurse=depth)
+def process_category(category, depth):
+    print(f"Processing category: {category.title()}")
+    pages = category.articles(namespaces=0, content=True, recurse=depth)
     for page in pages:
         bn_cats = get_bn_cats(get_en_cats(page))
         process_page(page, bn_cats)
@@ -76,6 +79,7 @@ def process_category(category, depth, recent):
 if args.file_path:
     if not args.file_path.strip():
         args.file_path = "data/advoocats.txt"
+    print(f"Processing {len(page_titles)} pages from file: {args.file_path}")
     with open(args.file_path, 'r', encoding='utf-8') as file:
         page_titles = file.read().splitlines()
     for page_title in page_titles:
@@ -87,7 +91,7 @@ if args.file_path:
 elif args.category:
     category = pywikibot.Category(site_bn, args.category)
     depth = args.depth if args.depth <= 5 else 5
-    process_category(category, depth, args.recent)
+    process_category(category, depth)
 
 elif args.recent:
     recent_pages = site_bn.recentchanges(total=args.recent)
