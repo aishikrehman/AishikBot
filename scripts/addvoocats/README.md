@@ -68,3 +68,16 @@ The addvoocats.py script requires the following dependencies to be installed:
 Contributing:
 --------------
 If you wish to contribute to the addvoocats.py script, you can fork the repository on GitHub 
+
+
+
+
+
+
+
+# Future Feature
+* -file:"name"
+* -page:"name" -wth | -lop
+* -template:"name"
+* -cat:"name" -cats -depth:"0" -start:"xx" -end:"zz"
+* -recent:int -cats
