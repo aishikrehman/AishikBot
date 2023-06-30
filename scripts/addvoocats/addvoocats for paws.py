@@ -81,7 +81,7 @@ def main(*args: str) -> None:
             bengali_length = ''.join(bengali_numerals[digit] for digit in str(len(onwiki_categories_to_add)))
             bn_sum = f"{bengali_length}টি বিষয়শ্রেণী যুক্ত করা হয়েছে"
             x_sum = f"Added {len(onwiki_categories_to_add)} categories"
-            summary = bengali_length if onwiki.lang == 'bn' else x_sum
+            summary = bn_sum if onwiki.lang == 'bn' or onwiki.lang == 'bpy' else x_sum
             page.save(summary=summary)
             pywikibot.output(f"Added {len(onwiki_categories_to_add)} categories to {page.title()}")
         else:
