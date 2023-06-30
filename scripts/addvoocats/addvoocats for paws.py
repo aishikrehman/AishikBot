@@ -79,7 +79,9 @@ def main(*args: str) -> None:
             page.text += "\n" + categories_text
             bengali_numerals = {'0': '০', '1': '১', '2': '২', '3': '৩', '4': '৪', '5': '৫', '6': '৬', '7': '৭', '8': '৮', '9': '৯'}
             bengali_length = ''.join(bengali_numerals[digit] for digit in str(len(onwiki_categories_to_add)))
-            summary = bengali_length if onwiki.lang == 'bn' else len(onwiki_categories_to_add)
+            bn_sum = f"{bengali_length}টি বিষয়শ্রেণী যুক্ত করা হয়েছে"
+            x_sum = f"Added {len(onwiki_categories_to_add)} categories"
+            summary = bengali_length if onwiki.lang == 'bn' else x_sum
             page.save(summary=summary)
             pywikibot.output(f"Added {len(onwiki_categories_to_add)} categories to {page.title()}")
         else:
