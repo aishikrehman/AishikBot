@@ -1,0 +1,235 @@
+
+Kashmiri cuisine - কাশ্মীরি রন্ধনশৈলী
+Noon chai - নুন চা
+Rogan josh - রোগন জোশ
+Shab deg - No_BN
+Aloo gobi - আলু গোবি
+Aloo mutter - আলু মটর
+Baati - No_BN
+Baingan bartha - No_WD
+Barfi  - বরফি
+Kaju katli - No_BN
+Bhatoora - No_WD
+Butter chicken - No_BN
+Chana masala - ছোলাবুট
+Chapati - চাপাতি
+Churma - No_BN
+Dal baati - ডাল বাটি
+Dum aloo - আলুর দম
+Dopiaza - দোপেঁয়াজা
+Egg curry - No_WD
+Haleem - হালিম
+Jeera aloo - জিরা আলু
+Kachori - কচুরি
+Chicken karahi - কড়াই মুরগি
+Kadhi - No_BN
+Kahwah - No_BN
+Keema - No_WD
+Khichra - খিচড়া
+Khichdi - No_WD
+Kulcha - কুলচা
+Korma - কোর্মা
+Kulfi - কুলফি
+Laal maans - No_BN
+Mattar paneer - No_BN
+Mirchi bada - No_WD
+Mutton curry - কষা মাংস
+Naan - নান (রুটি)
+Nihari - নিহারী
+Palak paneer - পালং পনির
+Pakora - পাকোড়া
+Paneer tikka - পনির টিক্কা
+Raita (condiment) - No_WD
+Rajma - রাজমা (ব্যাঞ্জন)
+Rumali roti - রুমালি রুটি
+Sai bhaji - সাই ভাজি
+Shahi paneer - শাহী পনির
+Shami kebab - শামী কাবাব
+Tandoori chicken  - তন্দুরি চিকেন
+Paneer tikka masala - No_BN
+South Indian cuisine - দক্ষিণ ভারতীয় রন্ধনশৈলী
+Hyderabadi cuisine - হায়দ্রাবাদি রন্ধনশৈলী
+Baghara baingan - No_WD
+Hyderabadi biryani - হায়দ্রাবাদী বিরিয়ানি
+Hyderabadi haleem - হায়দ্রাবাদি হালিম
+Hyderabadi marag - No_BN
+Lukhmi - No_BN
+Mirchi ka salan - No_BN
+Osmania Biscuit - No_WD
+Aavakaaya - No_WD
+Appam - No_BN
+pesaha appam - No_BN
+Ariselu - No_BN
+Parotta - পারোত্তা
+Aviyal - No_WD
+Benne dose - No_BN
+Bhajji - No_WD
+Bisi bele bath - No_WD
+Bonda - No_BN
+Chicken 65 - No_BN
+Chicken Chettinad - No_BN
+Chakna - No_BN
+Curd rice - টকদই ভাত
+Dahi chutney - No_BN
+Dosa (food) - ধোসা
+Double ka meetha - শাহী টুকরা
+Fish moolie - মাছের মৌলি
+Idiappam - No_WD
+Idli - ইডলি
+Injipuli - No_BN
+Kaalan - No_BN
+Kakinada Kaja - No_WD
+Rice_congee - No_WD
+Kerala porotta - No_WD
+Koottu - কুট্টু
+Kozhukkattai - No_WD
+Kuzhambu - No_BN
+Murukku - ঝুরিভাজা
+Mysore Pak - No_WD
+Pachadi - No_BN
+Palathalikalu - No_BN
+Paniyaram - No_WD
+Pesarattu - No_BN
+Kheer - পায়েস
+Pootharekulu - No_BN
+Pongal (dish) - পোঙ্গল (খাদ্য)
+Ponganalu - No_BN
+Poriyal - পোড়িয়াল
+Pulihora - পুলিহরা
+Puttu - No_BN
+Rasam (dish) - No_BN
+Rice and curry - ভাত ও তরকারি
+Sakinalu - No_BN
+Sambar (dish) - সাম্বার
+Sheer korma - No_WD
+Sevai - সেঁও
+Ulava charu - No_BN
+Upma - No_BN
+Uttapam - উত্তপম
+Thalassery biryani - No_WD
+Vada (food)  - বড়া
+Gujarati cuisine - গুজরাতি রন্ধনশৈলী
+Dhokla - No_BN
+Khakhra - No_BN
+Maharashtrian cuisine - মহারাষ্ট্রীয় রন্ধনশৈলী
+Misal - No_BN
+Vada pav - বড়া পাও
+Thalipeeth - No_BN
+Akuri - আকুরি
+Basundi - No_BN
+Bhakri - No_BN
+Bhel puri - ভেলপুরি
+Bombil fry - No_WD
+Chinese bhel - No_BN
+Chivda - No_WD
+Chorizo - No_BN
+Dahi vada - দই বড়া
+Dhansak - ধানশাক
+Doodhpak - No_BN
+Handvo - হান্ডভো
+Kadboli - কডবোলি
+Khatkhate - No_BN
+Khandvi (food) - No_BN
+Kombdi vade - কোম্বডি বড়া
+Kuswar - No_BN
+Misal pav - No_BN
+Pav bhaji - পাও ভাজি
+Patoleo - No_BN
+Patra ni machhi - No_BN
+Pohe - No_WD
+Sabudana Khichadi - No_WD
+Sanna_(rice_cakes) - No_WD
+Sevpuri - No_WD
+Shrikhand - No_BN
+Solkadhi - No_BN
+Sorpotel - No_WD
+Veg Kolhapuri - No_WD
+Vindaloo - No_BN
+Xacuti  - শাগুতি
+Bengali cuisine - বাঙালি রন্ধনশৈলী
+Cham cham - No_WD
+Charchari - No_WD
+Jalfrezi - জলফ্রেজি
+Indian Chinese cuisine - ইন্দো-চীনা রন্ধনশৈলী
+Kati roll - কাঠি রোল
+Luchi - লুচি
+Machher Jhol - মাছের ঝোল
+Mishti doi - মিষ্টি দই
+Pantua - পান্তুয়া
+Prawn malai curry - No_WD
+Rasgulla - রসগোল্লা
+Ras malai - রসমালাই
+Sandesh (sweet) - No_WD
+Sorshe Ilish - No_WD
+Daab Chingri - No_WD
+Ashke pithe - No_WD
+Malpua - মালপোয়া
+Kosha mangsho - No_WD
+Odia cuisine - No_WD
+Arisa pitha - No_BN
+Chakuli pitha - চাকুলি পিঠা
+Chandrakanti - No_BN
+Chhena gaja - ছানা গজা
+Chhena jalebi - ছানার জিলাপি
+Chhena Jhili - No_BN
+Chhena kheeri - ছানা ক্ষীর
+Chhena poda - ছানাপোড়া
+Chingudi Jhola - No_WD
+Dahi baigana - No_BN
+Dahi Machha - No_WD
+Dahibara Aludam - No_BN
+Enduri pitha - এন্দুরি পিঠা
+Ghugni - ঘুগনি
+Kakara pitha - কাকড়া পিঠা
+Kanika (food) - No_BN
+Khira sagara - No_BN
+Maachha Bihana - No_WD
+Manda pitha - No_BN
+Ouu khatta - No_WD
+Pakhala - পখালা
+Pitha - পিঠা
+Podo pitha - No_BN
+Rasabali   - রসাবলী
+Rasagola - No_WD
+Santula - সংতুলা
+Mathapuli - No_BN
+Litti (cuisine) - লিট্টি
+Sattu - No_BN
+Khaja - খাজা
+Motichoor ka Ladoo - No_WD
+Tilkut - No_BN
+Anarsa - No_BN
+Bhojpuri cuisine - ভোজপুরি রন্ধনশৈলী
+Maithil cuisine - মৈথিলি রন্ধনশৈলী
+Magahi cuisine - No_WD
+Biryani - বিরিয়ানি
+Chaat - চাট
+Chutney - চাটনি
+Dal - ডাল
+Falooda - ফালুদা
+Flattened rice - চিড়া
+Gulab Jamun - No_WD
+Halwa - No_WD
+Indian pickle - No_WD
+Jalebi - জিলাপি
+Kofta - কোফতা
+Laddu - লাড্ডু
+Mango pudding - No_BN
+Panipuri - ফুচকা
+Papadum - No_WD
+Paratha - পরোটা
+Puri (food) - পুরি (খাদ্য)
+Qeema - No_WD
+Roti - আটার রুটি
+Sindhi biryani - সিন্ধি বিরিয়ানি
+Samosa - সমুসা
+Shankarpali - No_BN
+Soan papdi - শনপাপড়ি
+Zarda (food)  - জর্দা (মিষ্টি)
+Puri Bhaji - No_WD
+Chicken tikka masala - চিকেন টিক্কা মাসালা
+Fish head curry - মাছের মাথার তরকারী
+Phall - ফাল তরকারি
+Nasi kandar - No_BN
+Pasembur - No_BN
+Roti canai - No_BN
